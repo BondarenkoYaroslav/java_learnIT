@@ -4,10 +4,9 @@ import static java.lang.Thread.sleep;
 
 public class RunnableDemo {
     public static void main(String[] args) {
-
         Thread spamRun = new Thread(new SpamRunnable());
-
         spamRun.start();
+
         try {
             spamRun.join(5000);
         } catch (InterruptedException e) {

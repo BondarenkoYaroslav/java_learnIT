@@ -1,7 +1,6 @@
 package core.multithreading.synchronizedEx;
 
 public class SynchronizedDemo extends Thread {
-    //    private Object lock = new Object();
     private int counter;
 
     public static void main(String[] args) throws InterruptedException {
@@ -34,3 +33,4 @@ public class SynchronizedDemo extends Thread {
     }
 
 }
+

@@ -3,7 +3,7 @@ package core.multithreading.ReentrantLockEx;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class ReentrantLockEx {
+public class ReentrantLockDemo {
     public static void main(String[] args) throws InterruptedException {
         CounterThreadsTask counterThreadsTask = new CounterThreadsTask();
 
